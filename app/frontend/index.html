@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognitive AI Tutor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Life Sciences AI Tutor (8th Grade)</h1>
+
+        <div class="chat-area">
+            <h2>Chat with the AI</h2>
+            <div id="chat-log">
+                <!-- Chat messages will appear here -->
+            </div>
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-chat-btn">Send</button>
+        </div>
+
+        <hr>
+
+        <div class="exercise-area">
+            <h2>Practice Exercise</h2>
+            <button id="get-exercise-btn">Get New Exercise</button>
+            <div id="exercise-display">
+                <!-- Exercise will appear here -->
+            </div>
+            <div id="answer-submission-area" style="display:none;">
+                <input type="text" id="exercise-answer-input" placeholder="Your answer...">
+                <button id="submit-answer-btn">Submit Answer</button>
+            </div>
+            <div id="exercise-feedback">
+                <!-- Feedback on submitted answer will appear here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

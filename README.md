@@ -26,9 +26,16 @@ This project aims to develop an AI simulating the cognitive abilities of a 14-ye
     *   `scripts/fine_tuning/train.py`: An outline of the Python script for the fine-tuning process, including argument parsing, data loading placeholders, PEFT/LoRA setup, and `SFTTrainer` integration.
     *   `docs/fine_tuning/README.md`: Comprehensive documentation detailing the hyperparameter optimization strategy, model evaluation metrics, and the overall validation process for fine-tuning.
 
-### (Upcoming) Phase 3: Web Application Development
+### Phase 3: Web Application Development (Initial Setup Completed)
 
-*   Details to be added.
+*   **Objective**: To establish the basic structure for the web application's backend and frontend, and to outline the conceptual design for user progression and feedback systems.
+*   **Key Artifacts**:
+    *   `app/backend/main.py`: A Flask-based backend application with placeholder API endpoints for chat (`/chat`), fetching exercises (`/get_exercise`), and submitting answers (`/submit_answer`).
+    *   `app/backend/requirements.txt`: Lists backend dependencies (initially Flask).
+    *   `app/frontend/index.html`: Basic HTML structure for the user interface, including areas for chat and exercises.
+    *   `app/frontend/style.css`: Placeholder CSS for basic styling.
+    *   `app/frontend/script.js`: JavaScript for frontend interactivity, including functions to communicate with the backend APIs.
+    *   `docs/app_design/README.md`: Conceptual outline for the User Progression and Feedback System, detailing tracking mechanisms and feedback types.
 
 ### (Upcoming) Phase 4: Evaluation and Validation
 
