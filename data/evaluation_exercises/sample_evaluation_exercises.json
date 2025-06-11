@@ -1,0 +1,60 @@
+[
+  {
+    "exercise_id": "ex_mc_001",
+    "source_material_type": "textbook_chapter",
+    "source_reference": "chapter1_cells.txt",
+    "concepts_tested": ["eukaryotic cells", "nucleus", "organelles"],
+    "exercise_type": "multiple_choice",
+    "difficulty_level": "medium",
+    "question_prompt": "Which of the following structures is characteristic of eukaryotic cells but absent in prokaryotic cells?",
+    "options": [
+      {"option_text": "Cytoplasm", "is_correct": false},
+      {"option_text": "Cell membrane", "is_correct": false},
+      {"option_text": "Nucleus", "is_correct": true},
+      {"option_text": "Ribosomes", "is_correct": false}
+    ],
+    "correct_answer": null,
+    "rubric_notes": "The correct option is 'Nucleus'. Cytoplasm, cell membrane, and ribosomes are found in both cell types."
+  },
+  {
+    "exercise_id": "ex_tf_001",
+    "source_material_type": "textbook_chapter",
+    "source_reference": "chapter2_photosynthesis.txt",
+    "concepts_tested": ["photosynthesis", "oxygen production"],
+    "exercise_type": "true_false",
+    "difficulty_level": "easy",
+    "question_prompt": "True or False: Photosynthesis consumes oxygen and produces carbon dioxide.",
+    "options": null,
+    "correct_answer": "False",
+    "rubric_notes": "The statement is false. Photosynthesis consumes carbon dioxide and produces oxygen."
+  },
+  {
+    "exercise_id": "ex_sa_001",
+    "source_material_type": "qa_concept",
+    "source_reference": "qa_001_concept_cell_theory",
+    "concepts_tested": ["cell theory", "living organisms"],
+    "exercise_type": "short_answer",
+    "difficulty_level": "medium",
+    "question_prompt": "Briefly explain the fundamental assertion of Cell Theory regarding all living organisms.",
+    "options": null,
+    "correct_answer": "Cell Theory asserts that all living organisms are composed of one or more cells, and that the cell is the basic unit of life.",
+    "rubric_notes": "Answer should mention that organisms are made of cells and the cell is the basic unit of life. Mentioning origin from pre-existing cells is a plus but not required from the dummy text."
+  },
+  {
+    "exercise_id": "ex_mc_002",
+    "source_material_type": "textbook_chapter",
+    "source_reference": "chapter2_photosynthesis.txt",
+    "concepts_tested": ["photosynthesis", "energy source", "chlorophyll"],
+    "exercise_type": "multiple_choice",
+    "difficulty_level": "easy",
+    "question_prompt": "What is the primary source of energy for the process of photosynthesis?",
+    "options": [
+      {"option_text": "Glucose", "is_correct": false},
+      {"option_text": "Water", "is_correct": false},
+      {"option_text": "Sunlight", "is_correct": true},
+      {"option_text": "Oxygen", "is_correct": false}
+    ],
+    "correct_answer": null,
+    "rubric_notes": "The correct option is 'Sunlight'. Chlorophyll captures this light energy."
+  }
+]

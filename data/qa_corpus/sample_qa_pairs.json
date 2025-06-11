@@ -1,0 +1,42 @@
+[
+  {
+    "id": "qa_001",
+    "source_chapter": "chapter1_cells.txt",
+    "concepts": ["cell theory", "living organisms", "cells"],
+    "question_type": "deductive",
+    "difficulty_level": "medium",
+    "question_text": "Cell theory states that all living organisms are composed of cells. If a scientist discovers a new organism, what can be deduced about its fundamental structure according to this theory?",
+    "answer_text": "According to cell theory, it can be deduced that the new organism must be composed of one or more cells.",
+    "context_snippet": "The cell is the basic unit of life. All living organisms are composed of cells. (...) Cell theory is a fundamental concept in biology."
+  },
+  {
+    "id": "qa_002",
+    "source_chapter": "chapter1_cells.txt",
+    "concepts": ["eukaryotic cells", "cell organelles", "classification"],
+    "question_type": "inductive",
+    "difficulty_level": "medium",
+    "question_text": "If a microscopic entity is observed to possess a defined nucleus and mitochondria, what biological classification would be most appropriate for it based on common cell structures?",
+    "answer_text": "Based on the presence of a defined nucleus and mitochondria, the entity would be classified as a eukaryotic cell, as these are characteristic organelles of eukaryotic cells.",
+    "context_snippet": "Prokaryotic cells are simpler and do not have a nucleus, while eukaryotic cells have a nucleus and other membrane-bound organelles. Cells have various organelles like the nucleus, mitochondria, and cytoplasm."
+  },
+  {
+    "id": "qa_003",
+    "source_chapter": "chapter2_photosynthesis.txt",
+    "concepts": ["photosynthesis", "reactants", "chloroplasts"],
+    "question_type": "factual_recall",
+    "difficulty_level": "easy",
+    "question_text": "What are the primary inputs (reactants) that green plants use for photosynthesis, and where does this process mainly occur within the plant cell?",
+    "answer_text": "Green plants primarily use sunlight, water, and carbon dioxide for photosynthesis. This process mainly occurs in the chloroplasts.",
+    "context_snippet": "Photosynthesis is the process by which green plants, algae, and some bacteria use sunlight, water, and carbon dioxide to create their own food... It primarily occurs in the chloroplasts..."
+  },
+  {
+    "id": "qa_004",
+    "source_chapter": "chapter1_cells.txt",
+    "concepts": ["prokaryotic cells", "nucleus"],
+    "question_type": "factual_recall",
+    "difficulty_level": "easy",
+    "question_text": "What is a key structural difference between prokaryotic cells and eukaryotic cells, particularly concerning the nucleus?",
+    "answer_text": "A key structural difference is that prokaryotic cells do not have a true nucleus, while eukaryotic cells do possess a nucleus.",
+    "context_snippet": "Prokaryotic cells are simpler and do not have a nucleus, while eukaryotic cells have a nucleus and other membrane-bound organelles."
+  }
+]
